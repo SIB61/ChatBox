@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "273261326315",
+    "firebase_url": "https://chat-box-5ca84.firebaseio.com",
+    "project_id": "chat-box-5ca84",
+    "storage_bucket": "chat-box-5ca84.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:273261326315:android:5e3a8fd71b453c227ef3ae",
+        "android_client_info": {
+          "package_name": "com.sib4u.chatbox"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "273261326315-4mdqmlcnpih4c0vt4g1o3s441hl66gru.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sib4u.chatbox",
+            "certificate_hash": "78c6ca2126a9ad91def74cbedeb8476dd84c568c"
+          }
+        },
+        {
+          "client_id": "273261326315-pnalgqgnrtdvr9rd5p0ge38cohjulsl1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAki227eGXoYg4l112TFfdxHbr6Q4FeIFM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "273261326315-pnalgqgnrtdvr9rd5p0ge38cohjulsl1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

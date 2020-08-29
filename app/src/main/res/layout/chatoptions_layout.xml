@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:layout_marginVertical="3dp"
+     android:layout_marginRight="6dp"
+    android:elevation="5dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<ImageView
+    android:id="@+id/chatOptionPhotoID"
+    android:layout_width="40dp"
+    android:layout_height="40dp"
+    android:background="@drawable/chatoption"
+    android:src="@drawable/ic_baseline_person_outline_24"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp">
+<TextView
+    android:id="@+id/chatOptionNameId"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="chatBox"
+    android:maxLines="1"
+    android:ellipsize="end"
+    android:textSize="15dp"/>
+        <TextView
+            android:id="@+id/chatOptionLastMsgID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:text="chatBox"
+
+            android:textSize="10dp"
+            android:layout_marginRight="5dp" />
+    </LinearLayout>
+
+</LinearLayout>

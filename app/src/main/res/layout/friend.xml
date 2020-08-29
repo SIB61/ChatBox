@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:gravity="left"
+    android:paddingHorizontal="5dp"
+    android:paddingVertical="2dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/msg1"
+        android:background="@drawable/friendbubble"
+        android:layout_width="wrap_content"
+        android:layout_marginRight="40dp"
+        android:padding="6dp"
+        android:textColor="#F0000000"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="this is me , whats up polapain " />
+    <TextView
+        android:id="@+id/time1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="8dp"
+        android:text="this is me , whats up polapain " />
+
+</LinearLayout>

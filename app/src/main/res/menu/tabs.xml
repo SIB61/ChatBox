@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<group android:id="@+id/showMenu" android:checkableBehavior="single">
+<item android:id="@+id/pic"
+    app:showAsAction="always"
+    android:icon="@drawable/ic_baseline_add_a_photo_24"
+    android:title="pic"/>
+    <item android:id="@+id/attachment"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_attachment_24"
+        android:title="pic"/>
+    <item android:id="@+id/call"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_call_24"
+        android:title="pic"/>
+
+</group>
+
+<group android:id="@+id/hideMenu">
+    <item android:id="@+id/photos"
+        android:title="photos" />
+   <item android:id="@+id/documents"
+       android:title="documents"/>
+    <item android:id="@+id/call_logs"
+        android:title="call logs"/>
+    <item android:id="@+id/block"
+        android:title="Block"/>
+</group>
+</menu>
