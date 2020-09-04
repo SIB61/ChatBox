@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="20dp"
+        tools:context=".Fragments.Login_Fragment"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="12"
+                android:padding="5dp"
+                android:id="@+id/Name"
+                android:background="@drawable/edittextshape"
+                android:hint="Full Name"
+                android:layout_marginVertical="5dp"
+                android:layout_gravity="center"/>
+            <EditText
+                android:id="@+id/Email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="12"
+                android:padding="5dp"
+                android:background="@drawable/edittextshape"
+                android:hint="Email"
+                android:layout_marginVertical="5dp"
+                android:layout_gravity="center"/>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="12"
+                android:id="@+id/Password"
+                android:padding="5dp"
+                android:background="@drawable/edittextshape"
+                android:hint="Password"
+                android:layout_marginVertical="5dp"
+                android:layout_gravity="center"/>
+            <EditText
+                android:id="@+id/rePassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="12"
+                android:padding="5dp"
+                android:background="@drawable/edittextshape"
+                android:hint="Re enter password"
+                android:layout_marginVertical="5dp"
+                android:layout_gravity="center"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:id="@+id/SignUpBack"
+                    android:layout_marginVertical="5dp"
+                    android:background="@drawable/edittextshape"
+                    android:ems="12"
+                    android:hint="Email"
+                    android:rotation="180"
+                    android:layout_alignParentLeft="true"
+                    android:padding="5dp"
+                    android:src="@drawable/ic_sharp_double_arrow_24" />
+                <ImageButton
+                    android:id="@+id/signUpButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginVertical="5dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/edittextshape"
+                    android:ems="12"
+                    android:hint="Email"
+                    android:padding="5dp"
+                    android:src="@drawable/ic_sharp_double_arrow_24" />
+
+
+            </RelativeLayout>
+        </LinearLayout>
+
+    </LinearLayout>
